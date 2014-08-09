@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>First Impression of Framer.JS</title>
+
+	<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+	<link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
+	<link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
+	<style type="text/css">
+		.bottom-line {
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+			text-align: right;
+			padding: 5px 15px 5px 0px !important;
+			background-color: white !important;
+			margin-left: -15px !important;
+			font-family: 'verdana' !important;
+			font-size: .8em !important;
+			color: #223322;
+		}
+
+		.reveal pre code {
+			padding-left: 15px;
+			line-height: 1.5em;
+		}
+		.reveal table {
+			width: 100%;
+		}
+
+		img {
+			height: 400px;
+			border: 0px !important;
+		}
+
+		th, td {
+			text-align:center !important;
+		}
+
+		hr {
+			margin: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>First Impression of FramerJS</h1>
+				<br /><br />
+				seoh
+			</section>
+			<section>
+				<h2>Presentation-Driven Study</h2>
+				<hr>
+				<br><br>
+				<blockquote class="fragment">
+					예전에 인턴할 때 윗기수의 선배가 "발표주도학습"이라는걸 주장한 적이 있는데 배우고 싶은 것을 발표하겠다고 공표하고 그때부터 배우기 시작하면 빠르게 배울 수 있다는 내용이었다. 그걸 해볼까 고민중
+				</blockquote>
+			</section>
+			<section>
+				<h2>developer</h2>
+				<hr />
+				<img src="images/0101010101010.jpg" />
+			</section>
+			<section>
+				<h2>Graphical</h2>
+				<hr />
+				<img src="images/baby.jpg">
+			</section>
+			<section>
+				<h2>Like</h2>
+				<hr />
+				<br /><br />
+				<ul>
+					<li>명세</li>
+					<li>명세서</li>
+					<li>확실한 명세서</li>
+					<li>구체적인 명세서</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Dislike</h2>
+				<hr />
+				<br /><br />
+				<ul>
+					<li>변경</li>
+					<li>수정</li>
+					<li>픽셀</li>
+					<li>디자인</li>
+				</ul>
+			</section>
+			<section>
+				<h2>what the f...</h2>
+				<hr />
+				<br />
+				<blockquote>
+					<br />
+					<h2>"색상 좀 화사하게"</h2>
+				</blockquote>
+				<blockquote>
+					<br />
+					<h3>"구조를 좀 덜 갑갑하게"</h3>
+				</blockquote>
+			</section>
+			<section>
+				<h2>facepalm</h2>
+				<hr />
+				<img src="images/facepalm.jpg" alt="">
+			</section>
+			<section>
+				<h2>Framer Meetup 2014</h2>
+				<hr />
+				Colin Dunn, 
+				drawing tool -> interaction design
+				<a href="http://vimeo.com/101623179"><img src="images/colindunn.png" alt=""></a>
+			</section>
+			<section>
+				<h2>Framer Meetup 2014</h2>
+				<hr>
+				<img src="images/colindunn2.png" alt="">
+				<div>디자이너: 개발자에게 설명하기 위해</div>
+				<div class="fragment">개발자: 개발자(self)에게 설명하기 위해</div>
+			</section>
+			<section>
+				<h2>Inspired by Material Design</h2>
+				<hr>
+				<img src="images/material.gif">
+			</section>
+			<section>
+				<h2>Materials from</h2>
+				<hr>
+				<ul>
+					<img src="images/sketch-app-sources.png" style="height: 100px;"><br>
+					<span>Bakcbone: http://www.sketchappsources.com/</span>
+					<br>
+					<img src="images/google.png" style="height: 100px;"><br>
+					<span>Icon: https://github.com/google/iosched</span>
+				</ul>
+			</section>
+			<section>
+				<h2>Demo: Email on Wearable</h2>
+				<hr>
+				<img src="images/demo.gif"><br/>
+				<a href="/framer.html">localhost</a>
+			</section>
+			<section>
+				<h2>Inner Demo</h2>
+				<hr>
+				<div id="framer"></div>
+			</section>
+			<section>
+				<h2>Trouble Shooting</h2>
+				<hr>
+				<ul>
+					<li>Sketch의 에러 메시지(Page 여러개 불가능)</li>
+					<li>Older WebView/Safari의 제약이 그대로</li>
+					<li class="fragment">누가 쓰라고 만든 툴인가
+						<ul>
+							<li>개발자들은 Sketch/Photoshop이 어렵고</li>
+							<li>디자이너/기획은 CoffeeScript가 어렵고</li>
+						</ul>
+					</li>
+					<li class="fragment">Tutorial의 부재</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Teardown Studio</h2>
+				<section>
+					<img src="images/mafia.jpg" alt="">
+					<div>밤이 깊었습니다. 개발자들은 고개를 듭니다.</div>
+				</section>
+				<section>
+					<div><code>PWD</code></div>
+					<hr>
+					<code>/Application/Framer Studio.app/Contents/Resources/</code>
+				</section>
+				<section>
+					<div><code>FramerStudioEditor/</code></div>
+					<hr>
+					<br><br>
+					<div style="float:left; width:45%; word-break: break-all;">
+						<h5>old</h5>
+						<ul>
+							<li>JavaScript(CodeMirror) 기반</li>
+							<li>static/js/autocomplete.coffee에서 자동완성 관리</li>
+						</ul>
+					</div>
+					<div style="float:left; width:45%;padding-left:50px;">
+						<h5>new</h5>
+						<ul>
+							<li>Native로 변경되며 폴더 사라짐</li>
+							<li><a href="https://github.com/mugginsoft/Fragaria">Fragaria</a> 사용</li>
+							<li>Syntax Definitions/autocomplete.txt에서 자동완성 관리</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div><code>FramerStudioScript/</code></div>
+					<hr>
+					<br><br>
+					<ul>
+						<li>framerstudio.coffee</li>
+						<li>Code Evaluation</li>
+						<li>Compile, ErrorMessage</li>
+						<li>compile before/after injection something?</li>
+					</ul>
+				</section>
+				<section>
+					<div><code>FramerTemplate/</code></div>
+					<hr>
+					<br><br>
+					<ul>
+						<li>처음 시작하는 샘플 소스</li>
+						<li>1.5에서 <code>server.command</code> 추가</li>
+					</ul>
+				</section>
+				<section>
+					<div><code>Snippets/</code></div>
+					<hr>
+					<br><br>
+					<ul>
+						<li>어디에 쓰이는거지</li>
+					</ul>
+				</section>
+				<section>
+					<div><code>ToolbarSnippets/</code></div>
+					<hr>
+					<br><br>
+					<ul>
+						<li>수정하면 툴바에 바로 반영</li>
+					</ul>
+				</section>
+				<section>
+					<div><code>UserSnippets/</code></div>
+					<hr>
+					<br><br>
+					<ul>
+						<li><code>~/Library/Application Support/Framer Studio/Snippets</code></li>
+						<li>에 복사하는 용도</li>
+					</ul>
+				</section>
+				<section>
+					<div><code>framerps/</code></div>
+					<hr>
+					<br><br>
+					<ul><li>
+						import from Photoshop using CocoaScript/Python
+					</li></ul>
+				</section>
+				<section>
+					<div><code>framersketch</code></div>
+					<hr>
+					<br><br>
+					<ul><li>
+						import from Sketch using CocoaScript/Python
+					</li></ul>
+				</section>
+			</section>
+			<section>
+				<h2>Tip 1. Injection</h2>
+				<hr>
+				<br>
+				<section>
+					<ol>
+						<li>Auto Complete</li>
+						<li>Code Evaluation</li>
+					</ol>
+					<br>
+					<br>
+					<span>Demo: Framer Examples(http://examples.framerjs.com/)에서 바로 Import하기</span>
+				</section>
+				<section>
+					<ol>
+						<li><code>/Syntax Definitions/autocomplete.txt</code></li>
+						<li><code>/FramerTemplate/index.html</code></li>
+					</ol>
+					<br /><br>
+					<span>demo: <a href="http://examples.framerjs.com/#on-time.framer">Android - On Time</a></span>
+				</section>
+				<section>
+					<code>Syntax Definitions/autocomplete.txt</code>
+					<pre><code>
+							exampleFrom
+					</code></pre>
+				</section>
+				<section>
+					<br>
+					<code>/FramerTemplate/index.html</code>
+					<pre><code>
+&lt;script&gt;
+window.exampleFrom = function(project, name) {
+	return Framer.Importer.load(
+			"http://examples.framerjs.com/static/examples/" +
+					project + ".framer/imported/" + name);
+}
+&lt;/script&gt;
+					</code></pre>
+				</section>
+				<section>
+					<span>Framer Studio</span>
+					<pre><code>
+						exampleFrom "on-time", "OnTime"
+					</code></pre>
+				</section>
+			</section>
+			<section>
+				<h2>Tip2: bezier-curve</h2>
+				<hr>
+				<br><a href="http://cubic-bezier.com/#1,-0.5,.5,1.01">cubic-bezier.com</a>
+				<img src="images/bezier.png" alt="">
+			</section>
+			<section>
+				<h2>Tip3: Inner Demo</h2>
+				<hr>
+				<br>
+					<pre><code>
+&lt;script src="framer/framer.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+	Framer.Session._RootElement = document.getElementById('framer');
+&lt;/script&gt;
+&lt;script src="app.js"&gt;&lt;/script&gt;
+					</code></pre>
+			</section>
+	</div>
+	<div class="bottom-line">
+		framer meetup <span style="color:#999999;">@</span> Seoul
+	</div>
+
+</div>
+
+<script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+<script src="bower_components/reveal.js/js/reveal.min.js"></script>
+
+<script>
+
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: false,
+		transition: 'linear',
+
+		dependencies: [
+			// { src: 'plugin/highlight/highlight.js'
+			// ,	async: true
+			// ,	callback: function() { 
+			// 	hljs.initHighlightingOnLoad(); }
+			// }
+			]
+		});
+</script>
+<link rel="stylesheet" type="text/css" href="framer/style.css">
+
+<script src="framer/framer.js"></script>
+<script type="text/javascript">
+	Framer.Session._RootElement = document.getElementById('framer');
+</script>
+<script src="app.js"></script>
+</body>
+</html>
